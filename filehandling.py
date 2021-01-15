@@ -15,3 +15,17 @@ word=len(words)
 print(call)
 print("number of words:",word)
 f.close()
+
+##COUNT NUMBER OF CHARACTERS
+
+g=open('file2.txt','r')
+
+call=g.read()
+
+characters=len(call)
+
+print(call)
+
+g.close()
+
+print("number of characters:",characters)
